@@ -24,7 +24,7 @@ public class Pyramid {
         }
     }
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         new Pyramid().printHalfPyramid(7);
-    }*/
+    }
 }
