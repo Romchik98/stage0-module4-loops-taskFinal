@@ -1,7 +1,7 @@
 package school.mjc.stage0.loops.finalTask;
 
 public class Pyramid {
-    public void printHalfPyramid(int cathetusLength) {
+    public void printPyramid(int cathetusLength) {
         for (int i = 1; i <= cathetusLength; i++)
         {
             for (int j = cathetusLength; j >= i; j--)
@@ -25,6 +25,6 @@ public class Pyramid {
     }
 
     public static void main(String[] args) {
-        new Pyramid().printHalfPyramid(7);
+        new Pyramid().printPyramid(7);
     }
 }

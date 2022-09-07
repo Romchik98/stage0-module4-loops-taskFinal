@@ -19,7 +19,7 @@ class PyramidTest extends BaseIOTest {
 
         Pyramid pyramid = new Pyramid();
 
-        pyramid.printHalfPyramid(9);
+        pyramid.printPyramid(9);
 
         assertOutEquals(expected);
     }
@@ -36,7 +36,7 @@ class PyramidTest extends BaseIOTest {
 
         Pyramid pyramid = new Pyramid();
 
-        pyramid.printHalfPyramid(6);
+        pyramid.printPyramid(6);
 
         assertOutEquals(expected);
     }
@@ -46,7 +46,7 @@ class PyramidTest extends BaseIOTest {
 
         Pyramid pyramid = new Pyramid();
 
-        pyramid.printHalfPyramid(0);
+        pyramid.printPyramid(0);
 
         assertOutEquals(expected);
     }
