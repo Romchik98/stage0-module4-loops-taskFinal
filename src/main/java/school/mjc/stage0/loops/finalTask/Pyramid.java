@@ -2,19 +2,23 @@ package school.mjc.stage0.loops.finalTask;
 
 public class Pyramid {
     public void printHalfPyramid(int cathetusLength) {
-        for (int i = cathetusLength; i >= 1; i--)
+        for (int i = 1; i <= cathetusLength; i++)
         {
-            for (int j = 1; j <= i; j++)
+            for (int j = cathetusLength; j >= i; j--)
             {
                 System.out.print(" ");
             }
-            for (int j = i; j <= cathetusLength; j++)
+            for (int j = i; j >= 1; j--)
             {
                 System.out.print(j);
             }
-            for (int j = cathetusLength - 1; j >= i; j--)
+            for (int j = 2; j <= i; j++)
             {
                 System.out.print(j);
+            }
+            for (int j = cathetusLength; j > i; j--)
+            {
+                System.out.print(" ");
             }
             System.out.println();
         }
